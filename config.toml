@@ -4,6 +4,7 @@ title = 'Are We InterPlanetary Yet?'
 
 theme = "hugo-theme-codex"
 enableEmoji = true
+relativeUrls = true
 
 # Override these settings with your own
 copyright = "© {year} Marshall Culpepper"
