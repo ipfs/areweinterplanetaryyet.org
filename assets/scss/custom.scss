@@ -1,0 +1,28 @@
+
+.fancy, .yes {
+  color: rgb(52, 121, 125);
+}
+
+.small {
+    font-size: 0.7em;
+}
+
+.no {
+    color: #f05234;
+}
+
+.container {
+    display: flex;
+    padding-top: 2em;
+    gap: 2em;
+}
+
+.ipfs-logo {
+    width: 12em;
+    height: 12em;
+    flex-grow: 1;
+}
+
+.content {
+    flex-grow: 2;
+}

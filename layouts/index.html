@@ -1,0 +1,28 @@
+{{ define "styles" }}
+    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/about.scss" "dest" "css/about.css") }}
+{{ end }}
+
+{{ define "main" }}
+
+<div class="splash-container">
+  <div class="splash">
+
+    <h1>Are We <span class="fancy">InterPlanetary</span> Yet?</h1>
+    {{ if not .Params.areweinterplanetaryyet }}
+    <h2 class="no"><span class="small">{{ emojify ":cry:" }}</span> No, not yet</h2>
+    {{ else }}
+    <h2 class="yes">{{ emojify ":rocket:" }} Yes, we've really made the grade!</h2>
+    {{ end }}
+
+    <div class="container">
+      <img class="ipfs-logo" src="ipfs-logo.png">
+      <div class="content">
+        {{ .Content }}
+      </div>
+    </div>
+
+    {{ partial "social-icons.html" .}}
+  </div>
+</div>
+
+{{ end }}
