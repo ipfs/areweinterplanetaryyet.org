@@ -23,7 +23,8 @@ copyright = "© {year} Marshall Culpepper"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   # twitter = "https://twitter.com/<your handle>"
-  # github = "https://github.com/<your handle>"
+  github = "https://github.com/marshall/areweinterplanetaryyet.org"
+  slack = "https://filecoin.io/slack"
   # email = "mailto:<your email>"
   # mastodon = "https://mastodon.social/@nickname"
   # facebook = "https://facebook.com/<your handle>"
@@ -35,7 +36,7 @@ copyright = "© {year} Marshall Culpepper"
   # Titles for your icons (shown as tooltips), and also their display order.
   # Currently, these icons are supported: 
   #   "Twitter", "GitHub", "Email", "Mastodon", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
-  iconOrder = ["Twitter", "GitHub"]
+  iconOrder = ["GitHub", "Slack"]
 
   # Metadata for Twitter cards, defaults to params.twitter
   # twitterSite = "@<your handle>"

@@ -9,8 +9,9 @@ arewespaceyet: false
 The first confirmed mission to use IPFS (well, actually [IPFS-tiny][]) is a QUBIK pico-satellite made
 by the fine folks at the [LibreSpace Foundation][], launching to Low-Earth Orbit in 2022
 
-Watch this space for more updates soon -- we have big plans!
+Come join us in [#space on Filecoin Slack][], and watch this site for more updates soon -- we have big plans!
 
 [IPFS]: https://ipfs.io
 [IPFS-tiny]: https://gitlab.com/librespacefoundation/ipfs-tiny
 [LibreSpace Foundation]: https://libre.space
+[#space on Filecoin Slack]: https://filecoin.io/slack
