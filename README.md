@@ -1,5 +1,5 @@
 ## Is IPFS actually InterPlanetary yet?
 
-**NO, not yet**
+**YES. IPFS has reached earth orbit at least once.**
 
 This is the source for the website areweinterplanetaryyet.org
