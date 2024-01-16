@@ -23,7 +23,7 @@ copyright = "© {year} Marshall Culpepper"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   # twitter = "https://twitter.com/<your handle>"
-  github = "https://github.com/marshall/areweinterplanetaryyet"
+  github = "https://github.com/ipfs/areweinterplanetaryyet"
   slack = "https://filecoin.io/slack"
   # email = "mailto:<your email>"
   # mastodon = "https://mastodon.social/@nickname"
