@@ -1,6 +1,6 @@
-
-.fancy, .yes {
-  color: rgb(52, 121, 125);
+.fancy,
+.yes {
+    color: rgb(52, 121, 125);
 }
 
 .small {
@@ -11,18 +11,38 @@
     color: #f05234;
 }
 
-.container {
-    display: flex;
-    padding-top: 2em;
-    gap: 2em;
-    justify-content: center;
-    align-items: flex-end;
+.splash-container {
+    height: auto;
+}
+
+.splash {
+    padding: 2em 0;
+    h2 {
+        font-size: 1.5em;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .splash-container {
+        height: 100vh;
+    }
+    .container {
+        display: flex;
+        padding-top: 2em;
+        gap: 2em;
+        justify-content: center;
+        align-items: flex-end;
+        max-width: 980px;
+    }
 }
 
 .ipfs-logo {
     width: 12em;
     height: 12em;
     flex-grow: 1;
+    display: block;
+    margin: 2em auto;
 }
 
 .content {
@@ -32,4 +52,9 @@
 .footer {
     font-size: 0.7em;
     padding: 0.8rem;
+}
+
+// TODO(temp): remove this once you add subnavigation
+.burger__container {
+    display: none;
 }
